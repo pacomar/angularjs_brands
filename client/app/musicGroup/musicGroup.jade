@@ -1,0 +1,9 @@
+h1 {{nombreGrupo}}
+
+.row
+	img.img-responsive.pull-left.col-sm-6(ng-src="{{trustSrc(urlImagen)}}", alt="{{nombreGrupo}}")
+	p {{descripcionGrupo}}
+
+.row
+	div.embed-responsive.embed-responsive-16by9
+		iframe.embed-responsive-item(ng-src="{{trustSrc(urlVideo)}}" frameborder="0" allowfullscreen)

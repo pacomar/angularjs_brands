@@ -1,0 +1,11 @@
+node_modules
+public
+.tmp
+.sass-cache
+.idea
+.DS_Store
+client/bower_components
+dist
+/server/config/local.env.js
+npm-debug.log
+node-v4.1.0-darwin-x64
